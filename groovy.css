@@ -1,0 +1,163 @@
+body{
+	margin:0;
+	padding:0;
+	background-color: #F8F8F8;
+	font-family:arial;
+}
+#section-1{
+	background-color: white;
+	margin:2%;
+	padding:2%;
+	border-top:6px solid #F3841D;
+}
+#logo{
+	margin-left:5%;
+}
+.container .flex-1{
+	width:30%;
+	box-sizing: border-box;
+}
+.container .flex-2 {
+  display: flex;
+  flex-direction: row;
+  width:80%;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+}
+
+.container{
+	display:flex;
+	box-sizing: border-box;
+}
+.container > div{
+	width: 12%;
+	font-size:0.7em; 
+	 	
+}
+.container > div a{
+	text-decoration: none;
+	color:#5A5A5A;
+	font-size: 1em;
+	font-weight: bold;
+}
+.big-sec-2{
+	color:#444444;
+	display:grid;
+	grid-template-columns:70% 30%;
+	
+	
+}
+
+.common{
+	width:90%;
+	padding:2%;
+	margin-left:2.5%;
+
+	border-top:6px solid #F3841D;
+	background-color: white;
+
+}
+.elephant{
+	width:61.5%;
+	border-top:6px solid #F3841D;
+	background-color: white;
+	margin:2%;
+	padding:2%;
+
+}
+.common-2
+{
+	width:90%;
+	margin:0;
+	padding:2%;
+	border-top:6px solid #F3841D;
+	background-color: white;
+	
+	text-align: center;
+}
+
+.para-1{
+	color:#919191;
+	font-weight:bold;
+	font-size:0.8em;
+}
+.para-2{
+	color:#868686;
+	font-size:1.2em;
+}
+hr{
+	color:#F4F4F4;
+	width:100%;
+	
+}
+.read-more{
+	text-align: right;
+	color:#C2BBB5;
+}
+
+.links-2 {
+	text-decoration:none;
+	color:#C2BBB5;
+	font-size:1.5em; 
+	padding:1.3%;
+}
+span{
+	color:#F3841D;
+}
+.section-5{
+	color:#444444;
+	display:grid;
+	grid-template-columns:33.3% 33.3% 33.3%;
+	grid-column-gap:1%;
+	width:93%;
+}
+ul li{
+	list-style-type: none;
+	text-align: left;
+}
+#table-2 tr td{
+	border: 2px solid #CACACA;
+	background-color: #E9E9E9;
+	border-left: 4px solid #F3841D;
+}
+#table-2 tr{
+	margin-right:50px;
+}
+
+#hr1{
+	width:300%;
+	height:1%;
+	
+}
+#input{
+	width:200px;
+	line-height: 30px;
+	vertical-align: center;
+	
+}
+.common-3{
+	margin-top:30px;
+}
+#h3{
+	margin-top:-40px;
+	margin-right:80px;
+
+}
+#h2{
+	margin-left:80px;
+}
+#tb1{
+	
+	font-size:25px;
+}
+#tb1 td {
+	border:none;
+}
+#tb1 th{
+	border:none;
+}
+#th{
+	background-color: #F0F0F0;
+	padding:10px;
+	width:50%;
+}
